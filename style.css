@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: url("https://cdn.pixabay.com/photo/2021/03/11/02/57/mountain-6086083_1280.jpg") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.forecast-day {
+    text-align: center;
+}
+
+.forecast-day img {
+    width: 50px;
+}
